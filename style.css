@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(227, 232, 236, 0.906);
+}
+
+#myH2 {
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+    color: rgb(24, 24, 24);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    border: 5px solid;
+    border-radius: 50px;
+}
+
+#display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 20px;
+}
+
+#controls button{
+    font-size: 1.3rem;
+    margin-left: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startBtn {
+    background-color: hsla(9, 88%, 49%, 0.8);
+}
+
+#startBtn:hover {
+    background-color:hsla(9, 88%, 49%, 0.7);
+}
+
+#stopBtn {
+    background-color: rgba(147, 106, 244, 0.8);
+}
+
+#stopBtn:hover {
+    background-color: rgba(147, 106, 244, 0.7);
+}
+
+#resetBtn {
+    background-color: rgba(109, 106, 14, 0.8);
+}
+
+#resetBtn:hover {
+    background-color: rgba(109, 106, 14, 0.7);
+}
