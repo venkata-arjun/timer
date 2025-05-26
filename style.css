@@ -51,25 +51,25 @@ body {
 }
 
 #startBtn {
-    background-color: hsla(9, 88%, 49%, 0.8);
+    background-color: #22c55e; /* Emerald green */
 }
 
 #startBtn:hover {
-    background-color:hsla(9, 88%, 49%, 0.7);
+    background-color: #16a34a; /* Darker emerald */
 }
 
 #stopBtn {
-    background-color: rgba(147, 106, 244, 0.8);
+    background-color: #ef4444; /* Red */
 }
 
 #stopBtn:hover {
-    background-color: rgba(147, 106, 244, 0.7);
+    background-color: #b91c1c; /* Darker red */
 }
 
 #resetBtn {
-    background-color: rgba(109, 106, 14, 0.8);
+    background-color: #3b82f6; /* Blue */
 }
 
 #resetBtn:hover {
-    background-color: rgba(109, 106, 14, 0.7);
+    background-color: #1d4ed8; /* Darker blue */
 }
